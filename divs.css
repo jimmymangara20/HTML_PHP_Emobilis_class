@@ -1,0 +1,18 @@
+.red{
+    color: red;
+    background-color: blue;
+}
+.green{
+    background-color: blueviolet;
+    color: green;
+}
+#watermelon{
+    font-style: italic;
+    color: brown;
+}
+.main_div{
+    background-color: blueviolet;
+}
+.sub_div{
+    background-color: yellow;
+}

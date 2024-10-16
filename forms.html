@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form page</title>
+</head>
+<body>
+    <h2>Personal details form</h2>
+    <form action="">
+        <label for="first_name" id="firstName">First Name</label>
+        <input type="text" placeholder="Enter your first name"> <br><br>
+        <label for="last_name" id="lastName">Last Name</label>
+        <input type="text"><br><br>
+        <label for="email">Email</label>
+        <input type="email">
+        <input type="submit" value="Click on submit">
+    </form>
+    <h2>Other information</h2>
+    <form action="">
+        <label for="dob">Date of birth</label>
+        <input type="date" name="dob">
+        <label for="female">Female</label>
+        <input type="radio" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" name="gender">
+        <label for="passport">Passport photo</label>
+        <input type="file" name="passport">
+        <label for="one_bedroom">Select the bedroom size</label>
+        <select name="bedroom" id="">
+            <option value="one_bedroom">One bedroom</option>
+            <option value="bedsitter">Bedsitter</option>
+        </select>
+        <input type="submit">
+    </form>
+</body>
+</html>
